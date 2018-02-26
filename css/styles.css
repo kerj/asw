@@ -1,0 +1,26 @@
+.profile p  {
+  width: 25%;
+  float:left;
+}
+.profile p a  {
+  text-decoration: none;
+  text-rendering: geometricPrecision;
+  transition: transform .3s cubic-bezier(0.55, 0, 0.55, 0.2) , color .3s cubic-bezier(0.55, 0, 0.55, 0.2);
+  transform-origin: 50% 30%;
+  text-align: center;
+}
+.profile p a:hover  {
+  color: lightblue;
+  transform: scale(1.5);
+}
+.profile img  {
+  float: left;
+}
+.sidebar  {
+  width:20%;
+  float:right;
+}
+body  {
+  font-family: georgia;
+  background-color: slategray;
+}
